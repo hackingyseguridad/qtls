@@ -21,7 +21,7 @@ echo "         www.hackingyseguridad.com"
 echo
 $Blanco
 if [ -z "$1" ]; then
-        echo "Query protocolos SSL/TLS y cifrados, permitidos"
+        echo "Consulta protocolos SSL/TLS y cifrados, permitidos"
         echo "Uso: sh $0 <IP:443>"
         exit 0
 fi
